@@ -1,0 +1,304 @@
+{
+  "routes": {
+    "modifyModulesUser": {
+      "es": "Ocurrió un error al degradar al usuario",
+      "en": "An error occurred while downgrade user"
+    },
+    "downgradeUser": {
+      "es": "Ocurrió un error al degradar al usuario",
+      "en": "An error occurred while downgrade user"
+    },
+    "cancelUser": {
+      "es": "Ocurrió un error al cancelar usuario",
+      "en": "An error occurred while cancel user"
+    },
+    "upgradeUser": {
+      "es": "Ocurrió un error al actualizar usuario",
+      "en": "An error occurred while upgrade user"
+    },
+    "getMembers": {
+      "es": "Ocurrió un error al consultar usuarios",
+      "en": "An error occurred while querying members"
+    },
+    "assignPassword": {
+      "es": "Ocurrió un error al asignar la contraseña",
+      "en": "An error occurred while assigning a password"
+    },
+    "saveMember": {
+      "es": "Ocurrió un error al crear nuevo usuario",
+      "en": "An error occurred while creating a new user"
+    },
+    "getMembershipPlans": {
+      "es": "Ocurrió un error al consultar planes de membresías",
+      "en": "An error occurred while viewing membership plans"
+    },
+    "getUsers": {
+      "es": "Ocurrió un error al consultar usuarios",
+      "en": "An error occurred while querying users"
+    },
+    "getUsersByName": {
+      "es": "Ocurrió un error al consultar datos del usuario",
+      "en": "An error occurred while fetching user data"
+    },
+    "getUserByID": {
+      "es": "Ocurrió un error al consultar datos del usuario",
+      "en": "An error occurred while fetching user data"
+    },
+    "saveUser": {
+      "es": "Ocurrió un error al crear nuevo usuario",
+      "en": "An error occurred while creating a new user"
+    },
+    "updateUser": {
+      "es": "Ocurrió un error al actualizar usuario",
+      "en": "An error occurred while updating user"
+    },
+    "removeUser": {
+      "es": "Ocurrió un error al borrar usuario",
+      "en": "An error occurred while deleting user"
+    },
+    "updatePasswordUser": {
+      "es": "Ocurrió un error al actualizar la contraseña del usuario",
+      "en": "An error occurred while updating the user's password"
+    },
+    "checkExistsEmail": {
+      "es": "Ocurrió un error al checar existencia del correo eléctronico",
+      "en": "An error occurred when checking the existence of the email"
+    },
+    "checkExistsPhone": {
+      "es": "Ocurrió un error al checar existencia de numero de celular",
+      "en": "An error occurred when checking the existence of cell phone number"
+    },
+    "requestPasswordRecovery": {
+      "es": "Ocurrió un error al recuperar la contraseña",
+      "en": "An error occurred while recovering the password"
+    },
+    "restorePassword": {
+      "es": "Ocurrió un error al cambiar la contraseña",
+      "en": "An error occurred while changing the password"
+    },
+    "requestEmailValidation": {
+      "es": "Ocurrió un error al solicitar verificación de correo electrónico",
+      "en": "An error occurred requesting email verification"
+    },
+    "validateEmail": {
+      "es": "Ocurrió un error al verificar el correo electrónico",
+      "en": "An error occurred while verifying email"
+    },
+    "sendVerifyEmail": {
+      "es": "Ocurrió un error al verificar el correo electrónico",
+      "en": "An error occurred while send verifying email"
+    }
+  },
+  "controllers": {
+    "modifyModulesUser": {
+      "noId": {
+        "es": "Falta parametro 'id'",
+        "en": "Missing parameter 'id'"
+      },
+      "noNewValues": {
+        "es": "Falta parametro 'newValues'",
+        "en": "Missing parameter 'newValues'"
+      }
+    },
+    "downgradeUser": {
+      "noId": {
+        "es": "Falta parametro 'id'",
+        "en": "Missing parameter 'id'"
+      },
+      "noNewValues": {
+        "es": "Falta parametro 'newValues'",
+        "en": "Missing parameter 'newValues'"
+      }
+    },
+    "cancelUser": {
+      "noUser": {
+        "es": "Falta parametro 'user'",
+        "en": "Missing parameter 'user'"
+      }
+    },
+    "upgradeUser": {
+      "noId": {
+        "es": "Falta parametro 'id'",
+        "en": "Missing parameter 'id'"
+      },
+      "noNewValues": {
+        "es": "Falta parametro 'newValues'",
+        "en": "Missing parameter 'newValues'"
+      },
+      "existPhone": {
+        "es": "Lo sentimos no se pudo actualizar la información. El teléfono #phone ya se encuentra en uso",
+        "en": "Sorry, the information could not be updated. The phone #phone is already in use"
+      },
+      "existEmail": {
+        "es": "Lo sentimos no se pudo actualizar la información. El correo electrónico #email ya se encuentra en uso",
+        "en": "Sorry, the information could not be updated. The email #email is already in use"
+      }
+    },
+    "assignPassword": {
+      "noToken": {
+        "es": "Falta parametro 'token'",
+        "en": "Missing parameter 'token'"
+      },
+      "noPassword": {
+        "es": "Falta parametro 'password'",
+        "en": "Missing parameter 'password'"
+      },
+      "success": {
+        "es": "Se ha cambiado su contraseña exitosamente",
+        "en": "Your password has been assigned successfully"
+      }
+    },
+    "saveMember": {
+      "foundUsersByPhone": {
+        "es": "Ya existe un usuario registrado con el telefono",
+        "en": "There is already a user registered with the phone"
+      },
+      "foundUsersByEmail": {
+        "es": "Ya existe un usuario registrado con el correo",
+        "en": "There is already a registered user with the email"
+      },
+      "noAdminID": {
+        "es": "Falta parametro 'adminId'",
+        "en": "Missing parameter 'adminId'"
+      },
+      "noAdminName": {
+        "es": "Falta parametro 'adminName'",
+        "en": "Missing parameter 'adminName'"
+      }
+    },
+    "sendVerifyEmail": {
+      "noEmail": {
+        "es": "Falta parametro 'email'",
+        "en": "Missing parameter 'email'"
+      },
+      "success": {
+        "es": "Falta parametro 'newValues'",
+        "en": "We've sent you an email"
+      },
+      "foundUsersByEmail": {
+        "es": "Ya existe un usuario registrado con el correo",
+        "en": "There is already a registered user with the email"
+      }
+    },
+    "saveUser": {
+      "foundUsersByPhone": {
+        "es": "Ya existe un usuario registrado con el telefono",
+        "en": "There is already a user registered with the phone"
+      },
+      "foundUsersByEmail": {
+        "es": "Ya existe un usuario registrado con el correo",
+        "en": "There is already a registered user with the email"
+      }
+    },
+    "updateUser": {
+      "noId": {
+        "es": "Falta parametro 'id'",
+        "en": "Missing parameter 'id'"
+      },
+      "noNewValues": {
+        "es": "Falta parametro 'newValues'",
+        "en": "Missing parameter 'newValues'"
+      },
+      "existPhone": {
+        "es": "Lo sentimos no se pudo actualizar la información. El teléfono #phone ya se encuentra en uso",
+        "en": "Sorry, the information could not be updated. The phone #phone is already in use"
+      },
+      "existEmail": {
+        "es": "Lo sentimos no se pudo actualizar la información. El correo electrónico #email ya se encuentra en uso",
+        "en": "Sorry, the information could not be updated. The email #email is already in use"
+      }
+    },
+    "removeUser": {
+      "noUser": {
+        "es": "Falta parametro 'user'",
+        "en": "Missing parameter 'user'"
+      }
+    },
+    "updatePasswordUser": {
+      "noId": {
+        "es": "Falta parametro 'id'",
+        "en": "Missing parameter 'id'"
+      },
+      "noPassword": {
+        "es": "Falta parametro 'password'",
+        "en": "Missing parameter 'password'"
+      },
+      "noNewPassword": {
+        "es": "Falta parametro 'newPassword'",
+        "en": "Missing parameter 'newPassword'"
+      },
+      "correctPassword": {
+        "es": "La contraseña actual no coincide. No se pudo cambiar la contraseña",
+        "en": "The current password does not match. Could not change password"
+      }
+    },
+    "requestPasswordRecovery": {
+      "noEmail": {
+        "es": "Falta parámetro 'email'",
+        "en": "Missing parameter 'email'"
+      },
+      "sendEmail": {
+        "es": "Ocurrio un error en el servicio de envio de correos",
+        "en": "An error occurred in the mailing service"
+      },
+      "foundUsersByEmail": {
+        "es": "No existe una cuenta registrada con el correo especificado",
+        "en": "There is no account registered with the specified email"
+      },
+      "success": {
+        "es": "Te enviamos un correo electronico para que puedas recuperar la contraseña",
+        "en": "We have send you an email with instructions to reset your password"
+      }
+    },
+    "restorePassword": {
+      "noToken": {
+        "es": "Falta parametro 'token'",
+        "en": "Missing parameter 'token'"
+      },
+      "noPassword": {
+        "es": "Falta parametro 'password'",
+        "en": "Missing parameter 'password'"
+      },
+      "foundTokenBytoken": {
+        "es": "El enlace no es valido, favor de volver a solicitar la recuperación de la contraseña",
+        "en": "The link is not valid, please re-request password recovery"
+      },
+      "differenceDays": {
+        "es": "El enlace expiró o ya fue usado, favor de volver a solicitar la recuperación de la contraseña",
+        "en": "The link has expired or has already been used, please reapply for password recovery"
+      },
+      "success": {
+        "es": "Se ha cambiado su contraseña exitosamente",
+        "en": "Your password has been changed successfully"
+      }
+    },
+    "requestEmailValidation": {
+      "noUserID": {
+        "es": "Falta parametro 'userID'",
+        "en": "Missing parameter 'userID'"
+      },
+      "userData": {
+        "es": "No se encontro al usuario especificado",
+        "en": "The specified user was not found"
+      },
+      "error": {
+        "es": "Ocurrio un error en el servicio de envio de correos",
+        "en": "An error occurred in the mailing service"
+      }
+    },
+    "validateEmail": {
+      "noToken": {
+        "es": "Falta parametro 'token'",
+        "en": "Falta parametro 'token'"
+      },
+      "tokenData": {
+        "es": "El enlace no es valido o ya no esta disponible",
+        "en": "El enlace no es valido o ya no esta disponible"
+      },
+      "currentUser": {
+        "es": "No se encontro al usuario especificado",
+        "en": "The specified user was not found"
+      }
+    }
+  }
+}

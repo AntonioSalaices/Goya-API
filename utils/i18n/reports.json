@@ -1,0 +1,20 @@
+{
+    "routes": {
+      "importData": {
+        "es": "Ocurrió un error al importar datos",
+        "en": "An error occurred while importing data"
+      },
+      "getPricesForTable": {
+        "es": "Ocurrió un error al consultar datos de precios",
+        "en": "An error occurred while querying pricing data"
+      },
+      "getPricesForChart": {
+        "es": "Ocurrió un error al consultar datos de precios",
+        "en": "An error occurred while querying pricing data"
+      },
+      "getFilterOptions": {
+        "es": "Ocurrió un error al obtener datos",
+        "en": "An error occurred while querying data"
+      }
+    }
+  }

@@ -1,0 +1,106 @@
+{
+  "beef": {
+    "boxedBeefPrices": {
+      "type_sale_delivery_period": {
+        "en": "Type of Sale & Deliv. Period:"
+      },
+      "primal": {
+        "en": "Primal/Group:"
+      },
+      "sub_primal": {
+        "en": "Sub-primal/Item:"
+      },
+      "grade": {
+        "en": "Grade:"
+      },
+      "frequency": {
+        "en": "Frequency:"
+      },
+      "schedule": {
+        "en": "AM / PM:"
+      }
+    },
+    "boxedCowBeefPrices": {
+      "type_sale_delivery_period": {
+        "en": "Type of Sale & Deliv. Period:"
+      },
+      "type_cattle": {
+        "en": "Class of Cow:"
+      },
+      "primal": {
+        "en": "Primal/Group:"
+      },
+      "sub_primal": {
+        "en": "Sub-primal/Item:"
+      },
+      "frequency": {
+        "en": "Frequency:"
+      },
+      "schedule": {
+        "en": "AM / PM:"
+      }
+    },
+    "beefTrimmings": {
+      "type_sale_delivery_period": {
+        "en": "Type of Sale & Deliv. Period:"
+      },
+      "fob_plant": {
+        "en": "FOB Plant:"
+      },
+      "primal": {
+        "en": "Primal/Group:"
+      },
+      "sub_primal": {
+        "en": "Sub-primal/Item:"
+      },
+      "frequency": {
+        "en": "Frequency:"
+      },
+      "schedule": {
+        "en": "AM / PM:"
+      }
+    },
+    "negotiatedCash": {
+      "frequency": {
+        "en": "Frequency:"
+      },
+      "purchase_type": {
+        "en": "Purchase Type:"
+      },
+      "region": {
+        "en": "Region:"
+      },
+      "schedule": {
+        "en": "AM/PM/Summary:"
+      },
+      "type_cattle_selling_basis": {
+        "en": "Class of Cattle & Selling Basis:"
+      },
+      "grade": {
+        "en": "Choice %:"
+      }
+    }
+  },
+  "pork": {
+    "porkCutsAndOthers": {
+      "type_sale_delivery_period": {
+        "en": "Type of Sale & Deliv. Period:"
+      },
+      "fob_plant": {
+        "en": "FOB Plant:"
+      },
+      "primal": {
+        "en": "Primal/Group:"
+      },
+      "sub_primal": {
+        "en": "Sub-primal/Item:"
+      },
+      "frequency": {
+        "en": "Frequency:"
+      },
+      "schedule": {
+        "en": "AM / PM:"
+      }
+    }
+  }
+}

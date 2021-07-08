@@ -1,0 +1,24 @@
+{
+  "routes": {
+    "saveFavorites": {
+      "es": "Ocurrió un error al guardar a favoritos",
+      "en": "An error occurred while saving in favorites"
+    },
+    "getFavorites": {
+      "es": "Ocurrió un error al consultar favoritos",
+      "en": "An error occurred while viewing favorites"
+    },
+    "removeFavorites": {
+      "es": "Ocurrió un error al borrar favorito",
+      "en": "An error occurred while deleting favorite"
+    },
+    "updateFavorites": {
+      "es": "Ocurrió un error al actualizar favorito",
+      "en": "An error occurred while updating favorite"
+    },
+    "noId": {
+      "es": "Falta parámetro 'id'",
+      "en": "Missing parameter 'id'"
+    }
+  }
+}

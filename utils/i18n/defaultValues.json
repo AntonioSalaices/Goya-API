@@ -1,0 +1,34 @@
+{
+  "routes": {
+    "getDefaultValues": {
+      "es": "Ocurrió un error al consultar valores predeterminados",
+      "en": "An error occurred while saving in default values"
+    },
+    "saveDefaultValues": {
+      "es": "Ocurrió un error al guardar a favoritos",
+      "en": "An error occurred while saving in favorites"
+    },
+    "removeDefaultValues": {
+      "es": "Ocurrió un error al borrar favorito",
+      "en": "An error occurred while deleting favorite"
+    },
+    "updateDefaultValues": {
+      "es": "Ocurrió un error al actualizar favorito",
+      "en": "An error occurred while updating favorite"
+    },
+    "noId": {
+      "es": "Falta parámetro 'id'",
+      "en": "Missing parameter 'id'"
+    }
+  },
+  "controllers": {
+    "saveDefaultChartValues": {
+      "es": "You have saved this as your Default chart.",
+      "en": "You have saved this as your Default chart."
+    },
+    "saveDefaultTablesValues": {
+      "es": "You have saved this as your Default table.",
+      "en": "You have saved this as your Default table."
+    }
+  }
+}

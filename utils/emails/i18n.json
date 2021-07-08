@@ -1,0 +1,50 @@
+{
+  "subjectWelcome": {
+    "es": "Hola ${name}, accede a este link para verificar tu correo electrónico",
+    "en": "Bienvenido a GO-YA!!"
+  },
+  "subjectVerificationCode": {
+    "es": "Verifica tu correo",
+    "en": "Verify your email"
+  },
+  "subjectVerificationCodeRegister": {
+    "es": "Bienvenido a GO-YA!",
+    "en": "Bienvenido a GO-YA!"
+  },
+  "footer": {
+    "es": "Si recibiste este correo electrónico por error, basta con eliminarlo.",
+    "en": "Please do not reply to this email, if you have any questions you can reach us at contact@emeat.io"
+  },
+  "footerAccount": {
+    "es": "Si recibiste este correo electrónico por error, basta con eliminarlo.",
+    "en": "If you believe you received this email by mistake, please simply ignore it."
+  },
+  "message": {
+    "es": "Cuenta registrada exitosamente",
+    "en": "Please click on the button below to verify your email address."
+  },
+  "button": {
+    "es": "Cuenta registrada exitosamente",
+    "en": "Verify email"
+  },
+  "subjectRecovery": {
+    "es": "Hola ${name}, accede a este link para verificar tu correo electrónico",
+    "en": "Recovery password EMEAT"
+  },
+  "bulletinEmailTitle": {
+    "es": "Daily Pricing Bulletin",
+    "en": "Daily Pricing Bulletin"
+  },
+  "bulletinEmailRightTitle": {
+    "es": "Customize Watchlist",
+    "en": "Customize Watchlist"
+  },
+  "terms": {
+    "es": "Terms of Service",
+    "en": "Terms of Service"
+  },
+  "policy": {
+    "es": "Privacy Policy",
+    "en": "Privacy Policy"
+  }
+}

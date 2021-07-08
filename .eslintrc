@@ -1,0 +1,17 @@
+{
+  "extends": "rallycoding",
+  "env": {
+    "browser": false
+  },
+  "rules": {
+    "max-len": 0,
+    "no-underscore-dangle": 0,
+    "camelcase": 0,
+    "indent": "error",
+    "no-trailing-spaces": "error",
+    "no-loop-func": 0
+  },
+  "globals": {
+    "fetch": true
+  }
+}

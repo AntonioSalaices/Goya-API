@@ -1,0 +1,13 @@
+{
+  "km_base" : 0.0,
+  "minutes_base" : 0.0,
+  "IVA" : 0.16,
+  "base_rate" : 10.0,
+  "minimum_rate" : 30.0,
+  "km_price" : 3.9,
+  "minute_price" : 1.69,
+  "commission" : 0.14,
+  "average_minutes_by_km" : 2.0,
+  "configuration_name" : "default",
+  "expired_days_allowed": 0
+}
